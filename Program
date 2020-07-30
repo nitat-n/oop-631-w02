@@ -1,0 +1,27 @@
+using oop_6115261009_w02;
+using System;
+
+namespace oop_id_w02
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Room r433 = new Room();
+            Room r434 = new Room("434", "434", 4, 4, "Computer");
+            Building B4 = new Building("4","com","1236","6547");
+            Subject Soop = new Subject("9022081", "oop", "3(2-2-5)", "2","2");
+            Lecturer nn = new Lecturer("CE3-9022081", "Nitat", "Ninchawee", "lecturer");
+            Section ced = new Section("434", "4", "oop", "Nitat Ninchawee","Mon" ,"9.00", "12.00");
+            Program1 ced61 = new Program1("CED", "Bachelor");
+
+            Console.WriteLine(r433);
+            Console.WriteLine(r434);
+            Console.WriteLine(B4);
+            Console.WriteLine(Soop);
+            Console.WriteLine(nn);
+            Console.WriteLine(ced);
+            Console.WriteLine(ced61);
+        }
+    }
+}
